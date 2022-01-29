@@ -25,10 +25,17 @@ $(call inherit-product, vendor/awaken/config/common_full_phone.mk)
 # Inherit from r5x device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
+# Boot Animation Resolution
 TARGET_BOOT_ANIMATION_RES := 720
+
+# GApps
+USE_GAPPS := true
 TARGET_GAPPS_ARCH := arm64
 TARGET_INCLUDE_LIVE_WALLPAPERS := false
+TARGET_SUPPORTS_GOOGLE_RECORDER := false
 
+#Official
+AWAKEN_BUILD_TYPE := OFFICIAL
 PRODUCT_BRAND := Realme
 PRODUCT_DEVICE := r5x
 PRODUCT_MANUFACTURER := Realme
