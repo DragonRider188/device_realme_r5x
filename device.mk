@@ -141,7 +141,9 @@ PRODUCT_COPY_FILES += \
 
 # Charger
 PRODUCT_PACKAGES += \
-    libsuspend
+    libsuspend \
+    charger_res_images \
+    product_charger_res_images
 
 # Configstore
 PRODUCT_PACKAGES += \
