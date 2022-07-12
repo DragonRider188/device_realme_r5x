@@ -370,7 +370,7 @@
     <integer translatable="false" name="config_brightness_ramp_rate_slow">60</integer>
 
     <!-- Shutdown if the battery temperature exceeds (this value * 0.1) Celsius. -->
-     <integer name="config_shutdownBatteryTemperature">680</integer>
+     <integer name="config_shutdownBatteryTemperature">550</integer>
 
     <!-- Minimum screen brightness setting allowed by the power manager.The user is forbidden from setting the brightness below this level. -->
     <item name="config_screenBrightnessSettingMinimumFloat" format="float" type="dimen">0.0</item>
