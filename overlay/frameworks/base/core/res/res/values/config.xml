@@ -348,7 +348,7 @@
          This value may be zero in which case the screen will not dim before the
          device goes to sleep.
     -->
-    <integer name="config_maximumScreenDimDuration">18000</integer>
+    <integer name="config_maximumScreenDimDuration">7000</integer>
 
     <!-- User activity timeout: Maximum screen dim duration as a percentage of screen off timeout.
          This resource is similar to config_maximumScreenDimDuration but the maximum
@@ -361,7 +361,7 @@
          This value must be between 0% and 100%.  If the value is zero, the screen will not
          dim before the device goes to sleep.
     -->
-    <fraction name="config_maximumScreenDimRatio">30%</fraction>
+    <fraction name="config_maximumScreenDimRatio">20%</fraction>
 
     <!-- Fast brightness animation ramp rate in brightness units per second-->
      <integer name="config_brightness_ramp_rate_fast">180</integer>
